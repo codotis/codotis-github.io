@@ -1,7 +1,45 @@
-* {
+body {
   background-color: black;
 }
 
-.title {
-  color: white;
+.name {
+  color: #1f6ae2;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.role {
+  color: #1f6ae2;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.introduction {
+  color: #c6cad1;
+  font-family: 'Roboto Mono', monospace;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 50px;
+}
+
+.projects {
+  color: #1f6ae2;
+  font-family: 'Roboto Mono', monospace;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 50px;
+}
+
+.project-title {
+  color: #c6cad1;
+  font-family: 'Roboto Mono', monospace;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.project-image {
+  max-width: 500px;
+  padding-left: 70px;
 }
