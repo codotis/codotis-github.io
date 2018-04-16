@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: black;
 }
 
 .name {
@@ -38,7 +38,7 @@ body {
   padding-right: 70px;
   padding-left: 70px;
 }
-
+  
 .project-image {
   max-width: 500px;
   padding-left: 70px;
@@ -47,4 +47,14 @@ body {
 .project-desc {
   color: #c6cad1;
   font-family: 'Roboto Mono', monospace;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.icons {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 100px;
+  color: white;
+  padding-right: 70px;
+  padding-left: 70px;
 }
