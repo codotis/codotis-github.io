@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: red;
 }
 
 .name {
@@ -42,4 +42,9 @@ body {
 .project-image {
   max-width: 500px;
   padding-left: 70px;
+}
+
+.project-desc {
+  color: #c6cad1;
+  font-family: 'Roboto Mono', monospace;
 }
