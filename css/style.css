@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: black;
 }
 
 .name {
@@ -61,4 +61,16 @@ body {
 
 #Linkedin {
   max-width: 2em;
+}
+
+.introduction {
+  color: white;
+}
+
+.typer {
+  color: white;
+}
+
+.cursor {
+  color: white;
 }
