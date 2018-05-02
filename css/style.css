@@ -1,77 +1,49 @@
+.slide {
+  text-align: center;
+}
+
 body {
-  background-color: black;
+  background-color: #1a1a1a;
+  font-family: 'Play', sans-serif;
+  font-size: 40px;
+  color: #ddd;
 }
 
-.name {
-  color: #1f6ae2;
-  font-family: 'Roboto Mono', monospace;
-  text-align: center;
-  padding-top: 30px;
+.intro {
+  text-align: center
 }
 
-.role {
-  color: #1f6ae2;
-  font-family: 'Roboto Mono', monospace;
-  text-align: center;
-  padding-top: 30px;
+.about {
+  text-align: center
 }
 
-.introduction {
-  color: #c6cad1;
-  font-family: 'Roboto Mono', monospace;
-  padding-right: 70px;
-  padding-left: 70px;
-  padding-top: 50px;
+.colour-tap {
+  max-width: 400px;
 }
 
-.projects {
-  color: #1f6ae2;
-  font-family: 'Roboto Mono', monospace;
-  padding-right: 70px;
-  padding-left: 70px;
-  padding-top: 50px;
+.blipmusiq {
+  max-width: 600px;
 }
 
-.project-title {
-  color: #c6cad1;
-  font-family: 'Roboto Mono', monospace;
-  padding-right: 70px;
-  padding-left: 70px;
-  font-size: 24px;
+.moviehub {
+  max-width: 600px;
 }
 
-.project-image {
-  max-width: 500px;
-  padding-left: 70px;
-}
-
-.project-desc {
-  color: #c6cad1;
-  font-family: 'Roboto Mono', monospace;
-  padding-right: 70px;
-  padding-left: 70px;
+.arthub {
+  max-width: 600px;
 }
 
 .devicons {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 100px;
-  color: white;
-  padding-right: 70px;
-  padding-left: 70px;
+  font-size: 120px;
+  margin: 0 auto;
+  padding-right: 200px;
+  padding-left: 200px;
 }
 
-#Linkedin {
-  max-width: 2em;
+.contact {
+  margin-top: 50px;
 }
 
-.introduction {
-  color: white;
-}
-
-.typer {
-  color: white;
-}
-
-.cursor {
-  color: white;
+.fab {
+  margin-right: 25px;
 }

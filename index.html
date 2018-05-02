@@ -1,99 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Otis' Portfolio</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/devicons.css">
-  <script type="js/app.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet ">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <title>FullPage testing</title>
 </head>
 <body>
-  <section>
+  <div id="fullpage">
+    <div class="section">
+      <div class="slide">      <div class="intro">
+        <h1>Otis Vickers-Graver</h1>
+        <span class="typer" data-delim="|" data-delay="100" data-colors="white" data-deleteDelay="1000000" data-words="Web Developer"></span><span class="cursor" data-owner="first-typer"></span>
+        <div class="contact">
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-github"></i>
+          <i class="fas fa-at"></i>
+        </div>
+      </div></div>
+      <div class="slide"><div class="about">
+        <h1>About Me</h1>
+        <p>I have grown up in a generation that has always been immersed in technology - from phones, to computers and televisions. I have witnessed the seemingly exponential advancement of technology and the internet, which has always made me desperately excited to see what the next evolutionary stage of tech will be. My interest in Web Development first sprouted from starting an online codecademy course. I loved how coding bridged my logical thinking processes with my creative mindset. Studying at General Assembly gave me the learning experience, hard skills and information I needed to become a successful developer and the opportunity to start creating applications that could be that next advancement in technology. It allowed me to transition from being a user of tech, to a lover of code.</p>
+      </div></div>
+      <div class="slide"><div class="skills">
+        <h1>Skills</h1>
+        <div class="devicons">
+          <i class="devicon-javascript-plain"></i>
+          <i class="devicon-html5-plain-wordmark"></i>
+          <i class="devicon-css3-plain-wordmark"></i>
+          <i class="devicon-angularjs-plain-wordmark"></i>
+          <i class="devicon-atom-original-wordmark"></i>
+          <i class="devicon-babel-plain"></i>
+          <i class="devicon-bootstrap-plain-wordmark"></i>
+          <i class="devicon-bower-plain-wordmark"></i>
+          <i class="devicon-express-original-wordmark"></i>
+          <i class="devicon-git-plain-wordmark"></i>
+          <i class="devicon-gulp-plain"></i>
+          <i class="devicon-heroku-original-wordmark"></i>
+          <i class="devicon-jquery-plain-wordmark"></i>
+          <i class="devicon-mongodb-plain-wordmark"></i>
+          <i class="devicon-nodejs-plain-wordmark"></i>
+          <i class="devicon-react-original-wordmark"></i>
+          <i class="devicon-sass-original"></i>
+          <i class="devicon-trello-plain-wordmark"></i>
+        </div>
 
-
-
-    <div class="container">
-      <h1 class="name">
-        Otis Vickers-Graver
-      </h1>
-      <h2 class="role">
-        Web Developer
-      </h2>
-    </div>
-    <div class="introduction">
-      <p> <span class="typer" data-delim="|" data-delay="75" data-colors="white" data-deleteDelay="10000000" data-words="I have grown up in a generation that has always been immersed in technology - from phones, to computers and televisions. I have witnessed the seemingly exponential advancement of technology and the internet, which has always made me desperately excited to see what the next evolutionary stage of tech will be. My interest in Web Development first sprouted from starting an online codecademy course. I loved how coding bridged my logical thinking processes with my creative mindset.
-
-        Studying at General Assembly gave me the learning experience, hard skills and information I needed to become a successful developer and the opportunity to start creating applications that could be that next advancement in technology. It allowed me to transition from being a user of tech, to a lover of code." ></span><span class="cursor" data-owner="first-typer"></span></p>
-
-    </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <h2 class="projects">Projects</h2>
-
-      <h4 class="project-title">Colour Tap</h4>
-      <a href="https://bit.ly/2I0TMKJ" target="_blank"><img class="project-image" src="https://i.imgur.com/6o8m4YV.jpg" target="_blank"></a>
-      <div class="project-desc">
-        I made a colour matching game in which you have to press the corresponding arrow key when the smaller triangle matches the colour of the outer triangle. I had a blast doing this project! I was essentially making a game from scratch. I created something fun, addictive and with a great replay value. The spacey background, retro visuals and simple colour scheme were inspired of old-school arcade games like Galaga and Space Invaders.
+      </div></div>
+      <div class="slide">
+        <h1>Project 1</h1>
+        <img class="colour-tap" src="./images/colour-tap.gif" alt="Colour Tap">
       </div>
-
-      <h4 class="project-title">blipmusiq</h4>
-      <a href="https://bit.ly/2DNXdlB" target="_blank"><img class="project-image" src="https://i.imgur.com/4uR3Kln.png" target="_blank"></a>
-      <div class="project-desc">
-        I created a social networking site for music. A music blog that enables users to register, login fully authenticated, upload music from YouTube and view user profiles. Utilizes full CRUD functions. Users can also follow other users and comment on uploads. I love music and spend a considerable amount of time browsing forums, blogs, and YouTube discovering new sounds, so I made a place to store them.
+      <div class="slide">
+        <h1>Project 2</h1>
+        <img class="blipmusiq" src="./images/blipmusiq.gif" alt="blipmusiq">
       </div>
-
-      <h4 class="project-title">MovieHub</h4>
-      <a href="https://bit.ly/2DP8j9U" target="_blank"><img class="project-image" src="https://i.imgur.com/AGDc3qB.png" target="_blank"></a>
-      <div class="project-desc">
-        A fully authenticated MEAN stack RESTful social network site for movies with full CRUD functionality. Consumes ‘The Movie Database’ API to display and interact with movies, and the ‘Filestack’ API for user profile image uploads. My team and I wanted to created an application for movie lovers, where users can talk about their favourite movies with others and join a chatroom for each movie.
+      <div class="slide">
+        <h1>Project 3</h1>
+        <img class="moviehub" src="./images/moviehub.gif" alt="moviehub">
       </div>
-
-      <h4 class="project-title">ArtHub</h4>
-      <a href="https://bit.ly/2DPJkTE" target="_blank"><img class="project-image" src="https://i.imgur.com/qxQ816s.png"></a>
-
-      <div class="project-desc">
-        A fully RESTful, authenticated site where artists can login upload their artwork to sell to the public. My first MERN stack application uses ReactJS on the front end to dynamically display data and axios to send requests. Maintains CRUD functionality on user uploads and implements custom form error messages, styled with Bootstrap and SCSS. Inspired by my sisters who are both amazing artists, I created an online platform where users can upload and sell their art, no matter what their skill level is.
+      <div class="slide">
+        <h1>Project 4</h1>
+        <img class="arthub" src="./images/arthub.gif" alt="arthub">
       </div>
-
+      <div class="slide"><h1>Project 5</h1></div>
     </div>
-  </section>
-  <footer>
-    <div class="devicons">
-      <i class="devicon-javascript-plain"></i>
-      <i class="devicon-html5-plain-wordmark"></i>
-      <i class="devicon-css3-plain-wordmark"></i>
-      <i class="devicon-angularjs-plain-wordmark"></i>
-      <i class="devicon-atom-original-wordmark"></i>
-      <i class="devicon-babel-plain"></i>
-      <i class="devicon-bootstrap-plain-wordmark"></i>
-      <i class="devicon-bower-plain-wordmark"></i>
-      <i class="devicon-express-original-wordmark"></i>
-      <i class="devicon-git-plain-wordmark"></i>
-      <i class="devicon-gulp-plain"></i>
-      <i class="devicon-heroku-original-wordmark"></i>
-      <i class="devicon-jquery-plain-wordmark"></i>
-      <i class="devicon-mongodb-plain-wordmark"></i>
-      <i class="devicon-nodejs-plain-wordmark"></i>
-      <i class="devicon-react-original-wordmark"></i>
-      <i class="devicon-sass-original"></i>
-      <i class="devicon-trello-plain-wordmark"></i>
-    </div>
-
-    <div class="contacticons">
-      <i class="devicon-github-plain-wordmark"></i>
-    </div>
-  </footer>
-
-</div>
-</nav>
-
-<script src='typer.js'></script>
-
-
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src='js/typer.js'></script>
 </body>
 </html>
