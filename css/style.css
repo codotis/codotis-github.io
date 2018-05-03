@@ -22,19 +22,26 @@ body {
 }
 
 .colour-tap {
-  max-width: 400px;
+  max-height: 400px;
+  float: left;
 }
 
 .blipmusiq {
-  max-width: 600px;
+  max-height: 270px;
+  float: left;
+  padding-right: 50px;
 }
 
 .moviehub {
-  max-width: 600px;
+  max-height: 270px;
+  float: left;
+  padding-right: 50px;
 }
 
 .arthub {
-  max-width: 600px;
+  max-height: 270px;
+  float: left;
+  padding-right: 50px;
 }
 
 .devicons {
@@ -66,4 +73,52 @@ a {
   float: left;
   max-width: 200px;
   margin-right: 20px;
+}
+
+.project1-desc {
+  display: flex;
+  justify-content: center;
+  float: right;
+  font-size: 20px;
+  text-align: left;
+}
+
+.project2-desc {
+  font-size: 20px;
+  text-align: left;
+}
+
+.project3-desc {
+  font-size: 20px;
+  text-align: left;
+}
+.project4-desc {
+  font-size: 20px;
+  text-align: left;
+}
+
+.project1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.project2 {
+  text-align: center;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.project3 {
+  text-align: center;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.project4 {
+  text-align: center;
+  padding-right: 200px;
+  padding-left: 200px;
 }
