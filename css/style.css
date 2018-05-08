@@ -22,8 +22,9 @@ body {
 }
 
 .colour-tap {
-  max-height: 400px;
+  max-height: 270px;
   float: left;
+  padding-right: 50px;
 }
 
 .blipmusiq {
@@ -76,9 +77,6 @@ a {
 }
 
 .project1-desc {
-  display: flex;
-  justify-content: center;
-  float: right;
   font-size: 20px;
   text-align: left;
 }
@@ -98,8 +96,6 @@ a {
 }
 
 .project1 {
-  display: flex;
-  justify-content: center;
   text-align: center;
   padding-right: 200px;
   padding-left: 200px;
@@ -113,12 +109,17 @@ a {
 
 .project3 {
   text-align: center;
-  padding-right: 150px;
-  padding-left: 150px;
+  padding-right: 200px;
+  padding-left: 200px;
 }
 
 .project4 {
   text-align: center;
   padding-right: 200px;
   padding-left: 200px;
+}
+
+.project-links {
+  font-size: 20px;
+  margin-bottom: 60px;
 }
